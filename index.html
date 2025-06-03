@@ -16,6 +16,14 @@
 
       gtag('config', 'AW-17088162533');
     </script>
+
+    <script>
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17088162533/SgW8CLC2_cgaEOXVotQ_',
+        'value': 1.0,
+        'currency': 'IDR'
+    });
+</script>
   </head>
 
   <body>
@@ -462,6 +470,12 @@
             alert("Please complete all required fields.");
             return;
           }
+
+          gtag('event', 'conversion', {
+            'send_to': 'AW-17088162533/SgW8CLC2_cgaEOXVotQ_',
+            'value': 1.0,
+            'currency': 'IDR'
+          });
     
           const waMessage = `Hello, I'm interested in a surf class!
     
